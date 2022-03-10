@@ -1,0 +1,41 @@
+#sixphotos h2{
+	color:black;
+}
+
+
+#rappel h2{
+	color:black;
+	margin: 0;
+}
+
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+
+.cards img{
+	border:7px solid blue;
+}
+
+
+.cards h3{
+	font-size: 20px;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+@media(min-width: 576px){
+	.cards{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media(min-width: 768px){
+	.cards{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kaushan+Script&display=swap');
+@import url("footer.css");
+@import url("header.css");
+@import url("cards.css");
+@import url("carroussel.css");
+@import url("mail.css");
+
+a{
+	text-decoration: none;
+	font-size: black;
+}
+
+img{
+	width: 70%;
+}
+
+h1{
+	color: white;
+	font-size: 90px;
+	margin: 0
+}
+
+h2{
+	font-size: 50px;
+	color:white;
+}
+
+
+p{
+	font-size: 30px;
+	margin: 0;
+}
+
+body{
+	font-family: 'Amatic SC', cursive;
+	background:linear-gradient(#8595F8, #F9EAA5, white, #8595F8);
+	margin:0;
+}
+
+div{
+	text-align: center;
+    padding: 24px;
+    margin: 0;
+}
+
+
+#cta{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 50px;
+	align-items: center;
+}
+
+
+#cta p{
+	color:white;
+	font-weight: bolder;
+	font-size: 23px;
+	text-align: center;
+}
+
+
+.button{
+	color: #667af6;
+	background-color: #F9EAA5;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 20px 16px;
+	border-radius: 20px;
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	border:2px solid #667af6;
+}
+
+
+.button:hover{
+	color:#F9EAA5;
+	background-color: #667af6;
+	font-weight: bolder;
+}
+
+
+.container{
+	width: 75%;
+	margin: 0 auto;
+}
+
+
+
