@@ -9,10 +9,11 @@
 	background-color: white;
 	font-size: 35px;
 	padding: 24px;
+	font-family: amatic sc;
 }
 
 .header a:hover{
 	color:white;
 	background-color:#F9EAA5;
-	padding: 20px 16px
+	padding: 24px 16px;
 }

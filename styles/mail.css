@@ -4,6 +4,7 @@
 	display: block;
 }
 
+
 .mail h2{
 	color: black;
 	margin: 0;
@@ -14,4 +15,10 @@ input{
 	border:; black;
 	margin: 50px 10px;
 	font-size: 25px;
+}
+
+
+#rappel h2{
+	color:black;
+	margin: 0;
 }
