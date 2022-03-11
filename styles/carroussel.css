@@ -3,6 +3,12 @@
 	margin: 20px 20px;
 }
 
-#carroussel{
+#carroussels{
 	padding: 50px;
+}
+
+#carroussel{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
 }
